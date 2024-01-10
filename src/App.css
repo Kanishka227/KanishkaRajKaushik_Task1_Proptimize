@@ -1,12 +1,32 @@
+*{
+  text-align: center;
+  margin: 10px;
+}
 .App {
   text-align: center;
 }
-
+table{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 50%;
+  margin: 40px auto;
+}
+th,td{
+  border: 2px solid black;
+  text-align: left;
+  margin: 5px;
+  padding: 10px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.search{
+  width: 30%;
+  text-align: left;
+  padding: 5px;
+  border: 2px solid black;
+  font-size: 1.5rem;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
